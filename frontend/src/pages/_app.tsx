@@ -4,8 +4,12 @@ import type { AppProps } from 'next/app'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <WalletProvider>
+    <div className='bg-gradient-to-b from-blue-200 to-indigo-600'>
+      <WalletProvider>
       <Component {...pageProps} />
     </WalletProvider>
+    
+      </div>
+    
   )
 }
