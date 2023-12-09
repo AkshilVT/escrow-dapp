@@ -83,3 +83,7 @@ button {
   cursor: pointer;
   border: none;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
