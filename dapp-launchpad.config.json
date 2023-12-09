@@ -1,1 +1,27 @@
-{"template":{"name":"typescript","filesAndDirs":{"smart-contracts":{"path-dir":"D:\\HACKATHON\\smart-contracts","contracts-dir":"D:\\HACKATHON\\smart-contracts\\contracts","artifacts-dir":"D:\\HACKATHON\\smart-contracts\\artifacts","deploy-localhost":"D:\\HACKATHON\\smart-contracts\\scripts\\deploy_localhost.ts","deploy-prod":"D:\\HACKATHON\\smart-contracts\\scripts\\deploy_prod.ts","typechain-types-dir":"D:\\HACKATHON\\smart-contracts\\typechain-types","hardhat-config":"D:\\HACKATHON\\smart-contracts\\hardhat.config.ts","hardhat-config-ethernal":"D:\\HACKATHON\\smart-contracts\\hardhat-ethernal.config.ts"},"frontend":{"path-dir":"D:\\HACKATHON\\frontend","smart-contracts-config-dir":"D:\\HACKATHON\\frontend\\src\\constants","deployed-network-development":"D:\\HACKATHON\\frontend\\src\\constants\\deployed-network-development.json","deployed-network-production":"D:\\HACKATHON\\frontend\\src\\constants\\deployed-network-production.json","smart-contracts-development":"D:\\HACKATHON\\frontend\\src\\constants\\smart-contracts-development.json","smart-contracts-production":"D:\\HACKATHON\\frontend\\src\\constants\\smart-contracts-production.json","types-dir":"D:\\HACKATHON\\frontend\\src\\types","typechain-types-dir":"D:\\HACKATHON\\frontend\\src\\types\\typechain-types"}}}}
+{
+    "template": {
+        "name": "typescript",
+        "filesAndDirs": {
+            "smart-contracts": {
+                "path-dir": "D:\\HACKATHON\\eskrow-dapp\\smart-contracts",
+                "contracts-dir": "D:\\HACKATHON\\eskrow-dapp\\smart-contracts\\contracts",
+                "artifacts-dir": "D:\\HACKATHON\\eskrow-dapp\\smart-contracts\\artifacts",
+                "deploy-localhost": "D:\\HACKATHON\\eskrow-dapp\\smart-contracts\\scripts\\deploy_localhost.ts",
+                "deploy-prod": "D:\\HACKATHON\\eskrow-dapp\\smart-contracts\\scripts\\deploy_prod.ts",
+                "typechain-types-dir": "D:\\HACKATHON\\eskrow-dapp\\smart-contracts\\typechain-types",
+                "hardhat-config": "D:\\HACKATHON\\eskrow-dapp\\smart-contracts\\hardhat.config.ts",
+                "hardhat-config-ethernal": "D:\\HACKATHON\\eskrow-dapp\\smart-contracts\\hardhat-ethernal.config.ts"
+            },
+            "frontend": {
+                "path-dir": "D:\\HACKATHON\\eskrow-dapp\\frontend",
+                "smart-contracts-config-dir": "D:\\HACKATHON\\eskrow-dapp\\frontend\\src\\constants",
+                "deployed-network-development": "D:\\HACKATHON\\eskrow-dapp\\frontend\\src\\constants\\deployed-network-development.json",
+                "deployed-network-production": "D:\\HACKATHON\\eskrow-dapp\\frontend\\src\\constants\\deployed-network-production.json",
+                "smart-contracts-development": "D:\\HACKATHON\\eskrow-dapp\\frontend\\src\\constants\\smart-contracts-development.json",
+                "smart-contracts-production": "D:\\HACKATHON\\eskrow-dapp\\frontend\\src\\constants\\smart-contracts-production.json",
+                "types-dir": "D:\\HACKATHON\\eskrow-dapp\\frontend\\src\\types",
+                "typechain-types-dir": "D:\\HACKATHON\\eskrow-dapp\\frontend\\src\\types\\typechain-types"
+            }
+        }
+    }
+}
