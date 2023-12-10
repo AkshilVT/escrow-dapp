@@ -35,5 +35,9 @@ https://sepolia.etherscan.io/tx/0xc4dec52bb2be3c2abc2f0f60a85459a3c94f895c2be3c5
 Ali, A., Yukesh, S., Shankar, T., & Thanigai, R. (2023). Decentralised Escrow Protocol that Facilitates Secure Transactions between Trustless Parties. Social Science Research Network. https://doi.org/10.2139/ssrn.4365306
 
 ## Bounty Verification Process
-- Scroll - Deploy on Scroll - We have deployed our contract on Scroll, here is the contract address(0xc8a4F7980e4Ce67dD01E7c77d9a9596849d1187D) and [etherscan](https://sepolia.etherscan.io/tx/0xc4dec52bb2be3c2abc2f0f60a85459a3c94f895c2be3c531f360a700359c5bf4) 
+- Scroll - Deploy on Scroll - We have deployed our contract on Scroll, here is the contract address(0xc8a4F7980e4Ce67dD01E7c77d9a9596849d1187D) and [etherscan](https://sepolia.etherscan.io/tx/0xc4dec52bb2be3c2abc2f0f60a85459a3c94f895c2be3c531f360a700359c5bf4)
+- Polygon - dApp Launchpad - We used dapp schaffold tool (typescript template) to develop our app. Link - getURL(this) or press `crtl+l`
+- Push - We used Push chat as the main medium of communication between our clients and artists. Here are the screenshots of the proof. You may not see this feature deployed because there was problem integrating (dependency issue) ChatUI as used 5.x version of ethers and we were using dApp Launchpad which used 6.x.
+- Lighthouse.storage -
+- Filecoin/IPFS -
 
