@@ -6,10 +6,27 @@ import {
   darkChatTheme,
   ChatViewComponent,
 } from '@pushprotocol/uiweb';
+import { PushAPI, CONSTANTS } from "@pushprotocol/restapi";
 import { useState } from 'react';
 import { ethers } from 'ethers';
+
+const signer = new ethers.Wallet.createRandom();
+const userAlice = await PushAPI.initialize(signer, { env: "prod" });
+
+const stream = await userAlice.initStream([CONSTANTS.STREAM.CHAT]);
+
+stream.on(CONSTANTS.STREAM.CHAT, (message) => {
+  console.log(message);
+});
+
+// Connect Stream
+stream.connect();
+
+
+
+
 export default function Home() {
-  const [signer, setSigner] = useState<any>(null);
+  const [signer, setSigner] = useState(null);
 
   const connectWallet = async () => {
     // Demo only supports MetaMask (or other browser based wallets) and gets provider that injects as window.ethereum into each page
@@ -28,6 +45,10 @@ export default function Home() {
   const disconnectWallet = async () => {
     setSigner(null);
   };
+
+
+
+
 
   return (
     <main className='flex min-h-screen flex-col items-center justify-center p-24'>
