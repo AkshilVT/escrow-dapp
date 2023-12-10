@@ -22,6 +22,8 @@ Our project harnesses this technology to its fullest potential, integrating Push
 
 ### Scroll:<br/>
 Deployed and verified our smart contract on Scroll.<br/>
+https://sepolia.etherscan.io/address/0x48735C0AAC91FFB817b16EFEb9e494D838cB89aE <br/>
+https://sepolia.etherscan.io/tx/0xc4dec52bb2be3c2abc2f0f60a85459a3c94f895c2be3c531f360a700359c5bf4 <br/>
 
 
 ### NextJs <br/>
