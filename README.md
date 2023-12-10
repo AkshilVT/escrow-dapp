@@ -12,13 +12,13 @@ Both stake some amount into the contract on the agreement. If either of them rej
 
 ## Technologies used
 ### Polygon dApp LaunchPad: <br/>
-Built an application using dapp launchpad <br/>
+Descrownomics, by utilizing the dApp LaunchPad framework and TypeScript, fits seamlessly into the Polygon track, capitalizing on Polygon's strengths in scalability and speed. This integration facilitates the smooth and efficient connection of smart contracts with the front end, enhancing user experience and operational efficiency. The use of TypeScript underscores a commitment to robust and maintainable code, crucial for the development of decentralized applications. By aligning with Polygon's ecosystem, Descrownomics not only benefits from its low transaction fees and high throughput but also positions itself for increased adoption and growth within the vibrant DeFi community, leveraging the network's extensive partnerships and user base. <br/>
 
 ### Lighthouse: <br/>
-The work submitted by the creators is deployed to Lighthouse and is retrieved later to be used by the client. The perpetual storage stores the creator's work to be accessed anytime, it also serves as a proof to avoid any malicious activity due to its immutability.    <br/>
+Descrownomics creatively integrates Filecoin's Lighthouse.storage as a pivotal component in the project, utilizing this onramp for storing and retrieving creators' work. This approach ensures that the creators' output is not only securely stored for perpetual access but also safeguarded against tampering due to the immutable nature of the storage. Such a mechanism is crucial for maintaining the integrity of the work and providing proof against any malicious activities.    <br/>
 
 ### Push Protocol chat: <br/>
-We used Push Chat to enable conversation between the freelancer and the organization. <br/>
+Our project harnesses this technology to its fullest potential, integrating Push Chat as a fundamental feature to facilitate direct and efficient communication between freelancers and organizations. The Push Protocol's versatility allows for a range of functionalities essential for social-based dApps. <br/>
 
 ### Scroll:<br/>
 Deployed and verified our smart contract on Scroll.<br/>
