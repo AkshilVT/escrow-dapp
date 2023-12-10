@@ -1,4 +1,7 @@
 # Descrownomics
+> [!NOTE]  
+> The steps to be followed to verify if the bounty track has been implemented are given at the end of this file.
+
 ## The code that holds your deal hostage (until it's done)
 The Decentralized Escrow Protocol represents a groundbreaking solution to the age-old challenge of establishing trust in transactions. In traditional dealings, a fundamental reliance on trust between parties often becomes a stumbling block, particularly when there is no pre-existing relationship or a history of unfavorable interactions.
 By leveraging the power of smart contracts, the protocol introduces a level of transparency and accountability that was previously unattainable. The essence lies in a brilliantly simple yet effective concept: funds are securely held in escrow by a smart contract until both parties have successfully fulfilled their respective obligations. This transformative approach not only guarantees the completion of the transaction but significantly mitigates the inherent risks associated with fraud and deception.
@@ -31,4 +34,6 @@ https://sepolia.etherscan.io/tx/0xc4dec52bb2be3c2abc2f0f60a85459a3c94f895c2be3c5
 ## Paper Referenced
 Ali, A., Yukesh, S., Shankar, T., & Thanigai, R. (2023). Decentralised Escrow Protocol that Facilitates Secure Transactions between Trustless Parties. Social Science Research Network. https://doi.org/10.2139/ssrn.4365306
 
+## Bounty Verification Process
+- Scroll - Deploy on Scroll - We have deployed our contract on Scroll, here is the contract address(0xc8a4F7980e4Ce67dD01E7c77d9a9596849d1187D) and [etherscan](https://sepolia.etherscan.io/tx/0xc4dec52bb2be3c2abc2f0f60a85459a3c94f895c2be3c531f360a700359c5bf4) 
 
