@@ -38,5 +38,22 @@ Ali, A., Yukesh, S., Shankar, T., & Thanigai, R. (2023). Decentralised Escrow Pr
 - Scroll - Deploy on Scroll - We have deployed our contract on Scroll, here is the contract address(0xc8a4F7980e4Ce67dD01E7c77d9a9596849d1187D) and [etherscan](https://sepolia.etherscan.io/tx/0xc4dec52bb2be3c2abc2f0f60a85459a3c94f895c2be3c531f360a700359c5bf4)
 - Polygon - dApp Launchpad - We used dapp schaffold tool (typescript template) to develop our app. Link - getURL(this) or press `crtl+l`
 - Push - We used Push chat as the main medium of communication between our clients and artists. Here are the screenshots of the proof. You may not see this feature deployed because there was problem integrating (dependency issue) ChatUI as used 5.x version of ethers and we were using dApp Launchpad which used 6.x.
-- Lighthouse.storage + Filecoin/IPFS - go to the [Assigned Page]([https://eskrow-dapp.vercel.app/Mytasks](https://eskrow-dapp.vercel.app/Assigned)https://eskrow-dapp.vercel.app/Assigned) and click on choose file and then upload. You can check the status 99 in the console. It has been stored and the CID has been generated too. 
+![9](https://github.com/AkshilVT/escrow-dapp/assets/75160883/a8b2ca92-62d7-424c-908c-a03faf7b09cc)
+![10](https://github.com/AkshilVT/escrow-dapp/assets/75160883/fe94e53f-d807-4edb-8a5b-88206f9ad44b)
+![11](https://github.com/AkshilVT/escrow-dapp/assets/75160883/5165d768-dd56-4a26-b7b2-ea85eb5e0e4b)
+![12](https://github.com/AkshilVT/escrow-dapp/assets/75160883/deae8d76-b514-46c3-8e1d-9d06a6d4bf0a)
 
+Lighthouse.storage + Filecoin/IPFS - go to the Assigned Page and click on choose file and then upload. You can check the status 99 in the console. It has been stored and the CID has been generated too.
+
+Here are the photos of storing on Filecoin/IPFS with the Lighthouse store.
+![1](https://github.com/AkshilVT/escrow-dapp/assets/75160883/341879d1-39e1-46db-90ef-e27aae0f03cf)
+![2](https://github.com/AkshilVT/escrow-dapp/assets/75160883/d0ba2462-744d-4d7f-8906-369dfc371702)
+![7](https://github.com/AkshilVT/escrow-dapp/assets/75160883/c6c0d874-77b3-4b2f-a393-c712d04ae3e2)
+
+Here is adding task flow.
+![4](https://github.com/AkshilVT/escrow-dapp/assets/75160883/f001df61-69ee-4e20-96ad-7cfcc0bc97c2)
+![5](https://github.com/AkshilVT/escrow-dapp/assets/75160883/f7d8c195-528c-4f23-a3fa-7e300e9d6e7a)
+![6](https://github.com/AkshilVT/escrow-dapp/assets/75160883/866826c5-15e3-43a3-b5bb-c75dbb853647)
+
+> [!NOTE]
+> This might not be hosted as we were facing some linting issues which made build fail.
