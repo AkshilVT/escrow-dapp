@@ -55,7 +55,7 @@ contract EscrowContract {
     uint256 taskId = 0;
 
     function createTask(uint256 _taskAmount, uint256 _clientDeposit, string memory _taskTitle, string memory _taskDescription) public payable returns(uint256) {
-    require(msg.value <= _clientDeposit + _taskAmount, "Insufficient client deposit and task amount");
+    require(msg.value >= _clientDeposit + _taskAmount, "Insufficient client deposit and task amount");
         taskId++;
         tasks[taskId] = Task({
         clientAddress: msg.sender,

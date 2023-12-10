@@ -69,6 +69,11 @@ const config: HardhatUserConfig = {
         url: "https://rpc.public.zkevm-test.net"
       },
       accounts: [process.env.PRIVATE_KEY_DEPLOYER as string]
+    },
+    scrollTestnet: {
+      chainId: 534351,
+      url: "https://sepolia-rpc.scroll.io/",
+      accounts: [process.env.PRIVATE_KEY_DEPLOYER as string]
     }
   }
 };
